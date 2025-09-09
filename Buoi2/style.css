@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 10px;
+}
+
+.article {
+    width: 100px;
+    height: 200px;
+    border: 1px solid #333;
+    margin: 20px;
+    padding: 10px;
+}
+
+.header {
+    background-color: red;
+}
+
+.section {
+    background-color: blue;
+}
+
+.footer {
+    background-color: yellow;
+}
