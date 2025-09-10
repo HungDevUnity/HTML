@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: white;
+    padding: 10px;
+    font: 20px Arial, sans-serif;
+}
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+.gallery {
+  display: flex;         
+  flex-wrap: wrap;        
+  gap: 10px;              
+  justify-content: center;
+  padding: 10px;
+}
+
+.gallery img {
+  flex: 1 1 200px;    
+  max-width: 250px;     
+  height: 180px;       
+  object-fit: cover;   
+  border-radius: 8px;   
+}
+.footer {
+    font: 20px Arial, sans-serif;
+    color: #0a19a3;
+    padding: 10px;
+    background: #d07878;
+}
+
