@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form gửi tin nhắn</title>
+</head>
+<body>
+    <form class="register-form" action="#" method="post">
+    <h1>Thông tin liên hệ với tôi</h1>
+
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" name="name" placeholder="Họ và tên" required>
+
+            <label for="mail">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <label for="phone">Số điện thoại:</label>
+            <input  type="tel" id="phone" name="phone" 
+                    pattern="[0-9]{10,11}"
+                    placeholder="Ví dụ: 0705828866" required>
+
+            <label for="message">Nội dung tin nhắn:</label>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+
+        <input type="submit" value="Gửi">
+    </form>
+    <link rel="stylesheet" href="./Ex1.css">
+</body>
+</html>
