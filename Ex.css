@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fa;
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse; /* gộp viền */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #555;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #1976d2;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+  background: #fff;
+}
+
+tr:hover {
+  background: #bbdefb;
+}
