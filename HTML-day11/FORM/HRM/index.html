@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Quản lý nhân viên</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Quản lý nhân viên</h1>
+
+  <form id="employeeForm">
+    <input type="hidden" id="employeeId">
+
+    <label>Họ tên:</label>
+    <input type="text" id="name" maxlength="255" required><br>
+
+    <label>Tuổi:</label>
+    <input type="number" id="age" min="18" max="65" required><br>
+
+    <label>Giới tính:</label>
+    <input type="radio" name="gender" value="Nam" checked> Nam
+    <input type="radio" name="gender" value="Nữ"> Nữ<br>
+
+    <label>Vị trí:</label>
+    <select id="position">
+      <option value="Kế toán">Kế toán</option>
+      <option value="Lập trình viên">Lập trình viên</option>
+      <option value="Quản lý">Quản lý</option>
+    </select><br>
+
+    <label>Ghi chú:</label><br>
+    <textarea id="note" maxlength="300"></textarea><br>
+
+    <button type="submit">Lưu</button>
+    <button type="reset">Reset</button>
+  </form>
+
+  <h2>Danh sách nhân viên</h2>
+  <table border="1" id="employeeTable">
+    <thead>
+      <tr>
+        <th>STT</th>
+        <th>Mã NV</th>
+        <th>Họ tên</th>
+        <th>Tuổi</th>
+        <th>Giới tính</th>
+        <th>Vị trí</th>
+        <th>Ghi chú</th>
+        <th>Hành động</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</body>
+</html>
